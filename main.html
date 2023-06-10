@@ -8,23 +8,13 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Feedback Form</h1>
+<!-- 	<h1>Feedback Form</h1>
 
   <form id="feedback-form" method="post">
-    <div>
-      <label for="name">Name</label><br>
-      <input type="text" id="name" name="name" minlength="3" maxlength="50" required><br>
-    </div>
 
-    <div>
-      <label for="portfolio">Portfolio</label><br>
-      <input type="url" id="portfolio" name="portfolio" required><br>
-    </div>
 
-    <div>
-      <label for="favColor">Favorite Color</label> <br>
-      <input type="color" id="favColor" name="favColor"><br>
-    </div>
+  
+
 
     <div>
       <label for="likeness">Likeness</label>
@@ -34,7 +24,34 @@
     <div>
       <input type="submit" value="Submit">
     </div>
-  </form>
+  </form> -->
+	<h1>
+		Feedback Form
+	</h1>
+	<form id="feedback-form" method="post">
+		<div>
+			<label for="name">Name</label><br>
+			<input type="text" id="name" name="name" minlength="3" maxlength="50" required><br>
+		</div
+			<div>
+			<label for="portfolio">Portfolio</label><br>
+			<input type="url" id="portfolio" name="portfolio" required><br>
+		</div>
+		<div>
+			<label for="favColor">Favorite Color</label><br>
+			<input type="color" id="favColor" name="favColor" required><br>
+		</div>
+
+	<div>
+			<label for="likeness">Likeness</label><br>
+			<input type="range" id="likeness" name="likeness" min="1" max="100" required><br>
+		</div>
+
+		<div>
+			<input type="submit" value="Submit">
+		</div>
+		
+	</form>
 	
     <script type="text/javascript" src="./script.js">
 </script>
